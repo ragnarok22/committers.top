@@ -42,7 +42,7 @@ var PRESETS = map[string]QueryPreset{
 		include: []string{"suriname", "paramaribo"},
 	},
 	"norway": QueryPreset{
-		include: []string{"norway", "norge", "oslo", "bergen", "trondheim"},
+		include: []string{"norway", "norge", "oslo", "bergen", "trondheim", "stavanger", "drammen", "fredrikstad", "kristiansand", "tromsø", "sandnes", "ålesund", "bodø", "skien", "haugesund", "tønsberg", "arendal", "porsgrunn", "hamar", "larvik", "moss", "sandefjord", "halden", "harstad", "lillehammer", "molde", "gjøvik", "mo+i+rana", "steinkjer", "alta", "lommedalen"},
 	},
 	"germany": QueryPreset{
 		include: []string{"germany", "deutschland", "berlin", "frankfurt", "munich", "münchen", "hamburg", "cologne", "köln"},
@@ -91,7 +91,7 @@ var PRESETS = map[string]QueryPreset{
 		include: []string{"china", "中国", "guangzhou", "shanghai", "beijing", "hangzhou"},
 	},
 	"india": QueryPreset{
-		include: []string{"india", "mumbai", "delhi", "bangalore", "hyderabad", "ahmedabad", "chennai", "kolkata", "jaipur"},
+		include: []string{"india", "mumbai", "delhi", "bangalore", "hyderabad", "ahmedabad", "chennai", "kolkata", "jaipur", "pune", "gurgaon", "noida"},
 	},
 	"israel": QueryPreset{
 		include: []string{"israel", "tel+aviv", "jerusalem", "beer+sheva", "beersheva", "netanya", "ramat+gan", "haifa", "herzliya", "rishon"},
@@ -457,6 +457,9 @@ var PRESETS = map[string]QueryPreset{
 	},
 	"kosovo": QueryPreset{
 		include: []string{"kosovo", "kosove", "prishtine"},
+	},
+	"madagascar": QueryPreset{
+		include: []string{"madagascar", "antananarivo", "toamasina", "antsiranana", "mahajanga", "fianarantsoa", "toliara", "antsirabe", "ambositra", "ambatondrazaka", "manakara", "sambava", "morondava", "ambanja", "farafangana", "maintirano", "antsalova", "isoa", "mampikony", "ambatolampy", "ambatofinandrahana", "mandritsara", "marovoay", "moramanga", "vangaindrano", "soaindrana", "ikongo", "tamatave", "diego+suarez", "mananjary", "vohemar", "amparafaravola"},
 	},
 }
 
